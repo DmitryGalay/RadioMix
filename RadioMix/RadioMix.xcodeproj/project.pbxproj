@@ -7,76 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32FA8D9428EB1D91009D4E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8D9328EB1D91009D4E3D /* AppDelegate.swift */; };
-		32FA8D9628EB1D91009D4E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8D9528EB1D91009D4E3D /* SceneDelegate.swift */; };
-		32FA8D9828EB1D91009D4E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8D9728EB1D91009D4E3D /* ViewController.swift */; };
-		32FA8D9B28EB1D91009D4E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8D9928EB1D91009D4E3D /* Main.storyboard */; };
-		32FA8D9D28EB1D93009D4E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8D9C28EB1D93009D4E3D /* Assets.xcassets */; };
-		32FA8DA028EB1D93009D4E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8D9E28EB1D93009D4E3D /* LaunchScreen.storyboard */; };
+		32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */; };
+		32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */; };
+		32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB728EB3CF0009D4E3D /* ViewController.swift */; };
+		32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DB928EB3CF0009D4E3D /* Main.storyboard */; };
+		32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */; };
+		32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */; };
+		32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DC728EC2C98009D4E3D /* RadioCell.swift */; };
+		B9375A44D107A4381D3ADAD4 /* Pods_RadioMix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32FA8D9028EB1D91009D4E3D /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FA8D9328EB1D91009D4E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32FA8D9528EB1D91009D4E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32FA8D9728EB1D91009D4E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32FA8D9A28EB1D91009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32FA8D9C28EB1D93009D4E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32FA8D9F28EB1D93009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		32FA8DA128EB1D93009D4E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMix.debug.xcconfig"; path = "Target Support Files/Pods-RadioMix/Pods-RadioMix.debug.xcconfig"; sourceTree = "<group>"; };
+		32FA8DB028EB3CF0009D4E3D /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32FA8DB728EB3CF0009D4E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32FA8DBA28EB3CF0009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FA8DBF28EB3CF1009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FA8DC128EB3CF1009D4E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FA8DC728EC2C98009D4E3D /* RadioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCell.swift; sourceTree = "<group>"; };
+		C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioMix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMix.release.xcconfig"; path = "Target Support Files/Pods-RadioMix/Pods-RadioMix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32FA8D8D28EB1D91009D4E3D /* Frameworks */ = {
+		32FA8DAD28EB3CF0009D4E3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9375A44D107A4381D3ADAD4 /* Pods_RadioMix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32FA8D8728EB1D91009D4E3D = {
+		32FA8DA728EB3CF0009D4E3D = {
 			isa = PBXGroup;
 			children = (
-				32FA8D9228EB1D91009D4E3D /* RadioMix */,
-				32FA8D9128EB1D91009D4E3D /* Products */,
+				32FA8DB228EB3CF0009D4E3D /* RadioMix */,
+				32FA8DB128EB3CF0009D4E3D /* Products */,
+				F82BCFEDA21485D76693A374 /* Pods */,
+				BD52CDEA5D31BE56D9787375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		32FA8D9128EB1D91009D4E3D /* Products */ = {
+		32FA8DB128EB3CF0009D4E3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32FA8D9028EB1D91009D4E3D /* RadioMix.app */,
+				32FA8DB028EB3CF0009D4E3D /* RadioMix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32FA8D9228EB1D91009D4E3D /* RadioMix */ = {
+		32FA8DB228EB3CF0009D4E3D /* RadioMix */ = {
 			isa = PBXGroup;
 			children = (
-				32FA8D9328EB1D91009D4E3D /* AppDelegate.swift */,
-				32FA8D9528EB1D91009D4E3D /* SceneDelegate.swift */,
-				32FA8D9728EB1D91009D4E3D /* ViewController.swift */,
-				32FA8D9928EB1D91009D4E3D /* Main.storyboard */,
-				32FA8D9C28EB1D93009D4E3D /* Assets.xcassets */,
-				32FA8D9E28EB1D93009D4E3D /* LaunchScreen.storyboard */,
-				32FA8DA128EB1D93009D4E3D /* Info.plist */,
+				32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */,
+				32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */,
+				32FA8DB728EB3CF0009D4E3D /* ViewController.swift */,
+				32FA8DC728EC2C98009D4E3D /* RadioCell.swift */,
+				32FA8DB928EB3CF0009D4E3D /* Main.storyboard */,
+				32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */,
+				32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */,
+				32FA8DC128EB3CF1009D4E3D /* Info.plist */,
 			);
 			path = RadioMix;
+			sourceTree = "<group>";
+		};
+		BD52CDEA5D31BE56D9787375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F82BCFEDA21485D76693A374 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */,
+				D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32FA8D8F28EB1D91009D4E3D /* RadioMix */ = {
+		32FA8DAF28EB3CF0009D4E3D /* RadioMix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FA8DA428EB1D93009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */;
+			buildConfigurationList = 32FA8DC428EB3CF1009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */;
 			buildPhases = (
-				32FA8D8C28EB1D91009D4E3D /* Sources */,
-				32FA8D8D28EB1D91009D4E3D /* Frameworks */,
-				32FA8D8E28EB1D91009D4E3D /* Resources */,
+				CAD6881EAB3965528DC1A35A /* [CP] Check Pods Manifest.lock */,
+				32FA8DAC28EB3CF0009D4E3D /* Sources */,
+				32FA8DAD28EB3CF0009D4E3D /* Frameworks */,
+				32FA8DAE28EB3CF0009D4E3D /* Resources */,
+				CE636EC6F15F743D62521346 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +113,25 @@
 			);
 			name = RadioMix;
 			productName = RadioMix;
-			productReference = 32FA8D9028EB1D91009D4E3D /* RadioMix.app */;
+			productReference = 32FA8DB028EB3CF0009D4E3D /* RadioMix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		32FA8D8828EB1D91009D4E3D /* Project object */ = {
+		32FA8DA828EB3CF0009D4E3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					32FA8D8F28EB1D91009D4E3D = {
+					32FA8DAF28EB3CF0009D4E3D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 32FA8D8B28EB1D91009D4E3D /* Build configuration list for PBXProject "RadioMix" */;
+			buildConfigurationList = 32FA8DAB28EB3CF0009D4E3D /* Build configuration list for PBXProject "RadioMix" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +139,98 @@
 				en,
 				Base,
 			);
-			mainGroup = 32FA8D8728EB1D91009D4E3D;
-			productRefGroup = 32FA8D9128EB1D91009D4E3D /* Products */;
+			mainGroup = 32FA8DA728EB3CF0009D4E3D;
+			productRefGroup = 32FA8DB128EB3CF0009D4E3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32FA8D8F28EB1D91009D4E3D /* RadioMix */,
+				32FA8DAF28EB3CF0009D4E3D /* RadioMix */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32FA8D8E28EB1D91009D4E3D /* Resources */ = {
+		32FA8DAE28EB3CF0009D4E3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FA8DA028EB1D93009D4E3D /* LaunchScreen.storyboard in Resources */,
-				32FA8D9D28EB1D93009D4E3D /* Assets.xcassets in Resources */,
-				32FA8D9B28EB1D91009D4E3D /* Main.storyboard in Resources */,
+				32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */,
+				32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */,
+				32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CAD6881EAB3965528DC1A35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioMix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE636EC6F15F743D62521346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		32FA8D8C28EB1D91009D4E3D /* Sources */ = {
+		32FA8DAC28EB3CF0009D4E3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FA8D9828EB1D91009D4E3D /* ViewController.swift in Sources */,
-				32FA8D9428EB1D91009D4E3D /* AppDelegate.swift in Sources */,
-				32FA8D9628EB1D91009D4E3D /* SceneDelegate.swift in Sources */,
+				32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */,
+				32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */,
+				32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */,
+				32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32FA8D9928EB1D91009D4E3D /* Main.storyboard */ = {
+		32FA8DB928EB3CF0009D4E3D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32FA8D9A28EB1D91009D4E3D /* Base */,
+				32FA8DBA28EB3CF0009D4E3D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		32FA8D9E28EB1D93009D4E3D /* LaunchScreen.storyboard */ = {
+		32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32FA8D9F28EB1D93009D4E3D /* Base */,
+				32FA8DBF28EB3CF1009D4E3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +238,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		32FA8DA228EB1D93009D4E3D /* Debug */ = {
+		32FA8DC228EB3CF1009D4E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		32FA8DA328EB1D93009D4E3D /* Release */ = {
+		32FA8DC328EB3CF1009D4E3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,8 +352,9 @@
 			};
 			name = Release;
 		};
-		32FA8DA528EB1D93009D4E3D /* Debug */ = {
+		32FA8DC528EB3CF1009D4E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,8 +380,9 @@
 			};
 			name = Debug;
 		};
-		32FA8DA628EB1D93009D4E3D /* Release */ = {
+		32FA8DC628EB3CF1009D4E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -337,25 +411,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32FA8D8B28EB1D91009D4E3D /* Build configuration list for PBXProject "RadioMix" */ = {
+		32FA8DAB28EB3CF0009D4E3D /* Build configuration list for PBXProject "RadioMix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32FA8DA228EB1D93009D4E3D /* Debug */,
-				32FA8DA328EB1D93009D4E3D /* Release */,
+				32FA8DC228EB3CF1009D4E3D /* Debug */,
+				32FA8DC328EB3CF1009D4E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FA8DA428EB1D93009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */ = {
+		32FA8DC428EB3CF1009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32FA8DA528EB1D93009D4E3D /* Debug */,
-				32FA8DA628EB1D93009D4E3D /* Release */,
+				32FA8DC528EB3CF1009D4E3D /* Debug */,
+				32FA8DC628EB3CF1009D4E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 32FA8D8828EB1D91009D4E3D /* Project object */;
+	rootObject = 32FA8DA828EB3CF0009D4E3D /* Project object */;
 }
