@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3238703E28EDB2C100393A51 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */; };
+		3238704028EDB42F00393A51 /* BurgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238703F28EDB42F00393A51 /* BurgerButton.swift */; };
+		3238704228EDC2A600393A51 /* CustomBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704128EDC2A600393A51 /* CustomBottomBar.swift */; };
+		3238705E28EE063D00393A51 /* wave.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3238705D28EE063D00393A51 /* wave.gif */; };
+		3238706828EE195400393A51 /* UIColor+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706028EE195400393A51 /* UIColor+threedeers.swift */; };
+		3238706928EE195400393A51 /* GifLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706128EE195400393A51 /* GifLogger.swift */; };
+		3238706A28EE195400393A51 /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706228EE195400393A51 /* String+Ranges.swift */; };
+		3238706B28EE195400393A51 /* UIView+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706328EE195400393A51 /* UIView+threedeers.swift */; };
+		3238706C28EE195400393A51 /* UIButton+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706428EE195400393A51 /* UIButton+threedeers.swift */; };
+		3238706D28EE195400393A51 /* UILabel+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706528EE195400393A51 /* UILabel+threedeers.swift */; };
+		3238706E28EE195400393A51 /* UITextField+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706628EE195400393A51 /* UITextField+threedeers.swift */; };
+		3238706F28EE195400393A51 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238706728EE195400393A51 /* Notification+Name.swift */; };
+		32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */; };
+		32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */; };
+		32FA8DB828EB3CF0009D4E3D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */; };
+		32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DB928EB3CF0009D4E3D /* Main.storyboard */; };
+		32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */; };
+		32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */; };
+		32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DC728EC2C98009D4E3D /* RadioCell.swift */; };
+		B9375A44D107A4381D3ADAD4 /* Pods_RadioMix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMix.debug.xcconfig"; path = "Target Support Files/Pods-RadioMix/Pods-RadioMix.debug.xcconfig"; sourceTree = "<group>"; };
+		3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		3238703F28EDB42F00393A51 /* BurgerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerButton.swift; sourceTree = "<group>"; };
+		3238704128EDC2A600393A51 /* CustomBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomBar.swift; sourceTree = "<group>"; };
+		3238705D28EE063D00393A51 /* wave.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wave.gif; sourceTree = "<group>"; };
+		3238706028EE195400393A51 /* UIColor+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+threedeers.swift"; sourceTree = "<group>"; };
+		3238706128EE195400393A51 /* GifLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifLogger.swift; sourceTree = "<group>"; };
+		3238706228EE195400393A51 /* String+Ranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
+		3238706328EE195400393A51 /* UIView+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+threedeers.swift"; sourceTree = "<group>"; };
+		3238706428EE195400393A51 /* UIButton+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+threedeers.swift"; sourceTree = "<group>"; };
+		3238706528EE195400393A51 /* UILabel+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+threedeers.swift"; sourceTree = "<group>"; };
+		3238706628EE195400393A51 /* UITextField+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+threedeers.swift"; sourceTree = "<group>"; };
+		3238706728EE195400393A51 /* Notification+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		32FA8DB028EB3CF0009D4E3D /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		32FA8DBA28EB3CF0009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FA8DBF28EB3CF1009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FA8DC128EB3CF1009D4E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FA8DC728EC2C98009D4E3D /* RadioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCell.swift; sourceTree = "<group>"; };
+		C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioMix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMix.release.xcconfig"; path = "Target Support Files/Pods-RadioMix/Pods-RadioMix.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FA8DAD28EB3CF0009D4E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375A44D107A4381D3ADAD4 /* Pods_RadioMix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3238705228EDFDA400393A51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3238705D28EE063D00393A51 /* wave.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3238705F28EE195400393A51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3238706028EE195400393A51 /* UIColor+threedeers.swift */,
+				3238706128EE195400393A51 /* GifLogger.swift */,
+				3238706228EE195400393A51 /* String+Ranges.swift */,
+				3238706328EE195400393A51 /* UIView+threedeers.swift */,
+				3238706428EE195400393A51 /* UIButton+threedeers.swift */,
+				3238706528EE195400393A51 /* UILabel+threedeers.swift */,
+				3238706628EE195400393A51 /* UITextField+threedeers.swift */,
+				3238706728EE195400393A51 /* Notification+Name.swift */,
+			);
+			name = Extensions;
+			path = ../../../../../../../Downloads/RadioMix/RadioMix/RadioMix/Extensions;
+			sourceTree = "<group>";
+		};
+		32FA8DA728EB3CF0009D4E3D = {
+			isa = PBXGroup;
+			children = (
+				32FA8DB228EB3CF0009D4E3D /* RadioMix */,
+				32FA8DB128EB3CF0009D4E3D /* Products */,
+				F82BCFEDA21485D76693A374 /* Pods */,
+				BD52CDEA5D31BE56D9787375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32FA8DB128EB3CF0009D4E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FA8DB028EB3CF0009D4E3D /* RadioMix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FA8DB228EB3CF0009D4E3D /* RadioMix */ = {
+			isa = PBXGroup;
+			children = (
+				3238705F28EE195400393A51 /* Extensions */,
+				32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */,
+				32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */,
+				32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */,
+				32FA8DC728EC2C98009D4E3D /* RadioCell.swift */,
+				3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */,
+				3238704128EDC2A600393A51 /* CustomBottomBar.swift */,
+				3238703F28EDB42F00393A51 /* BurgerButton.swift */,
+				32FA8DB928EB3CF0009D4E3D /* Main.storyboard */,
+				32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */,
+				32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */,
+				32FA8DC128EB3CF1009D4E3D /* Info.plist */,
+				3238705228EDFDA400393A51 /* Resources */,
+			);
+			path = RadioMix;
+			sourceTree = "<group>";
+		};
+		BD52CDEA5D31BE56D9787375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41B7C3761A9494F0C81013F /* Pods_RadioMix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F82BCFEDA21485D76693A374 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */,
+				D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FA8DAF28EB3CF0009D4E3D /* RadioMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FA8DC428EB3CF1009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */;
+			buildPhases = (
+				CAD6881EAB3965528DC1A35A /* [CP] Check Pods Manifest.lock */,
+				32FA8DAC28EB3CF0009D4E3D /* Sources */,
+				32FA8DAD28EB3CF0009D4E3D /* Frameworks */,
+				32FA8DAE28EB3CF0009D4E3D /* Resources */,
+				CE636EC6F15F743D62521346 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioMix;
+			productName = RadioMix;
+			productReference = 32FA8DB028EB3CF0009D4E3D /* RadioMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FA8DA828EB3CF0009D4E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					32FA8DAF28EB3CF0009D4E3D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 32FA8DAB28EB3CF0009D4E3D /* Build configuration list for PBXProject "RadioMix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FA8DA728EB3CF0009D4E3D;
+			productRefGroup = 32FA8DB128EB3CF0009D4E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FA8DAF28EB3CF0009D4E3D /* RadioMix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FA8DAE28EB3CF0009D4E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238705E28EE063D00393A51 /* wave.gif in Resources */,
+				32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */,
+				32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */,
+				32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAD6881EAB3965528DC1A35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioMix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE636EC6F15F743D62521346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioMix/Pods-RadioMix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FA8DAC28EB3CF0009D4E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238706E28EE195400393A51 /* UITextField+threedeers.swift in Sources */,
+				32FA8DB828EB3CF0009D4E3D /* MainViewController.swift in Sources */,
+				3238706F28EE195400393A51 /* Notification+Name.swift in Sources */,
+				3238704228EDC2A600393A51 /* CustomBottomBar.swift in Sources */,
+				32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */,
+				3238706D28EE195400393A51 /* UILabel+threedeers.swift in Sources */,
+				3238704028EDB42F00393A51 /* BurgerButton.swift in Sources */,
+				3238706A28EE195400393A51 /* String+Ranges.swift in Sources */,
+				3238706928EE195400393A51 /* GifLogger.swift in Sources */,
+				32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */,
+				32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */,
+				3238706C28EE195400393A51 /* UIButton+threedeers.swift in Sources */,
+				3238706B28EE195400393A51 /* UIView+threedeers.swift in Sources */,
+				3238706828EE195400393A51 /* UIColor+threedeers.swift in Sources */,
+				3238703E28EDB2C100393A51 /* CustomNavigationBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32FA8DB928EB3CF0009D4E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FA8DBA28EB3CF0009D4E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FA8DBF28EB3CF1009D4E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FA8DC228EB3CF1009D4E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32FA8DC328EB3CF1009D4E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FA8DC528EB3CF1009D4E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioMix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32FA8DC628EB3CF1009D4E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60D744BA0582604466A4D21 /* Pods-RadioMix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioMix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RadioMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FA8DAB28EB3CF0009D4E3D /* Build configuration list for PBXProject "RadioMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA8DC228EB3CF1009D4E3D /* Debug */,
+				32FA8DC328EB3CF1009D4E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FA8DC428EB3CF1009D4E3D /* Build configuration list for PBXNativeTarget "RadioMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FA8DC528EB3CF1009D4E3D /* Debug */,
+				32FA8DC628EB3CF1009D4E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FA8DA828EB3CF0009D4E3D /* Project object */;
+}
