@@ -16,7 +16,6 @@ class RadioCell: UITableViewCell {
     
     var containerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .red
         return view
     }()
     

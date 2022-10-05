@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3238703E28EDB2C100393A51 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */; };
+		3238704028EDB42F00393A51 /* BurgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238703F28EDB42F00393A51 /* BurgerButton.swift */; };
+		3238704228EDC2A600393A51 /* CustomBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704128EDC2A600393A51 /* CustomBottomBar.swift */; };
+		3238704B28EDC85F00393A51 /* UIColor+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704428EDC85F00393A51 /* UIColor+threedeers.swift */; };
+		3238704C28EDC85F00393A51 /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704528EDC85F00393A51 /* String+Ranges.swift */; };
+		3238704D28EDC85F00393A51 /* UIView+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704628EDC85F00393A51 /* UIView+threedeers.swift */; };
+		3238704E28EDC85F00393A51 /* UIButton+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704728EDC85F00393A51 /* UIButton+threedeers.swift */; };
+		3238704F28EDC85F00393A51 /* UILabel+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704828EDC85F00393A51 /* UILabel+threedeers.swift */; };
+		3238705028EDC85F00393A51 /* UITextField+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704928EDC85F00393A51 /* UITextField+threedeers.swift */; };
+		3238705128EDC85F00393A51 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704A28EDC85F00393A51 /* Notification+Name.swift */; };
 		32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */; };
 		32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */; };
 		32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB728EB3CF0009D4E3D /* ViewController.swift */; };
@@ -19,6 +29,16 @@
 
 /* Begin PBXFileReference section */
 		1C4247ED224DDBF5F1A59A9E /* Pods-RadioMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMix.debug.xcconfig"; path = "Target Support Files/Pods-RadioMix/Pods-RadioMix.debug.xcconfig"; sourceTree = "<group>"; };
+		3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		3238703F28EDB42F00393A51 /* BurgerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerButton.swift; sourceTree = "<group>"; };
+		3238704128EDC2A600393A51 /* CustomBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomBar.swift; sourceTree = "<group>"; };
+		3238704428EDC85F00393A51 /* UIColor+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+threedeers.swift"; sourceTree = "<group>"; };
+		3238704528EDC85F00393A51 /* String+Ranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
+		3238704628EDC85F00393A51 /* UIView+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+threedeers.swift"; sourceTree = "<group>"; };
+		3238704728EDC85F00393A51 /* UIButton+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+threedeers.swift"; sourceTree = "<group>"; };
+		3238704828EDC85F00393A51 /* UILabel+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+threedeers.swift"; sourceTree = "<group>"; };
+		3238704928EDC85F00393A51 /* UITextField+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+threedeers.swift"; sourceTree = "<group>"; };
+		3238704A28EDC85F00393A51 /* Notification+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
 		32FA8DB028EB3CF0009D4E3D /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3238704328EDC85F00393A51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3238704428EDC85F00393A51 /* UIColor+threedeers.swift */,
+				3238704528EDC85F00393A51 /* String+Ranges.swift */,
+				3238704628EDC85F00393A51 /* UIView+threedeers.swift */,
+				3238704728EDC85F00393A51 /* UIButton+threedeers.swift */,
+				3238704828EDC85F00393A51 /* UILabel+threedeers.swift */,
+				3238704928EDC85F00393A51 /* UITextField+threedeers.swift */,
+				3238704A28EDC85F00393A51 /* Notification+Name.swift */,
+			);
+			name = Extensions;
+			path = ../../../../../../../Downloads/Extensions;
+			sourceTree = "<group>";
+		};
 		32FA8DA728EB3CF0009D4E3D = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +100,14 @@
 		32FA8DB228EB3CF0009D4E3D /* RadioMix */ = {
 			isa = PBXGroup;
 			children = (
+				3238704328EDC85F00393A51 /* Extensions */,
 				32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */,
 				32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */,
 				32FA8DB728EB3CF0009D4E3D /* ViewController.swift */,
 				32FA8DC728EC2C98009D4E3D /* RadioCell.swift */,
+				3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */,
+				3238704128EDC2A600393A51 /* CustomBottomBar.swift */,
+				3238703F28EDB42F00393A51 /* BurgerButton.swift */,
 				32FA8DB928EB3CF0009D4E3D /* Main.storyboard */,
 				32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */,
 				32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */,
@@ -210,9 +249,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */,
+				3238704228EDC2A600393A51 /* CustomBottomBar.swift in Sources */,
+				3238705028EDC85F00393A51 /* UITextField+threedeers.swift in Sources */,
 				32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */,
+				3238704028EDB42F00393A51 /* BurgerButton.swift in Sources */,
+				3238704C28EDC85F00393A51 /* String+Ranges.swift in Sources */,
+				3238704D28EDC85F00393A51 /* UIView+threedeers.swift in Sources */,
 				32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */,
+				3238704F28EDC85F00393A51 /* UILabel+threedeers.swift in Sources */,
 				32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */,
+				3238704B28EDC85F00393A51 /* UIColor+threedeers.swift in Sources */,
+				3238705128EDC85F00393A51 /* Notification+Name.swift in Sources */,
+				3238703E28EDB2C100393A51 /* CustomNavigationBar.swift in Sources */,
+				3238704E28EDC85F00393A51 /* UIButton+threedeers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
