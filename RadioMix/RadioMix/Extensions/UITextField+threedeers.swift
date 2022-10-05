@@ -12,7 +12,7 @@ extension UITextField
 {
     func setBottomBorder(color:UIColor)
     {
-        self.borderStyle = UITextBorderStyle.none;
+        self.borderStyle = UITextField.BorderStyle.none;
         let border = CALayer()
         let width = CGFloat(1.0)
         border.borderColor = color.cgColor

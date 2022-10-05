@@ -24,7 +24,7 @@ extension UIButton {
         self.setTitle(title, for: .normal)
         self.setTitleColor(titleColor, for: .normal)
         self.titleLabel?.font = UIFont(name:fontName, size: size)
-        self.imageView?.contentMode = UIViewContentMode.scaleAspectFill
+        self.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
         self.translatesAutoresizingMaskIntoConstraints = false
         self.tintColor = tintColor
     }

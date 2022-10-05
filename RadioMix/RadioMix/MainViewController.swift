@@ -11,17 +11,18 @@ import SnapKit
 class MainViewController: UIViewController {
     
     
-    private  let tableView = UITableView()
+    private let tableView = UITableView()
     private var navigationBar: CustomNavigationBar?
+    private var bottomBar: CustomBottomBar?
     private var heightConstraint: NSLayoutConstraint?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        radioBackgroundImage()
-//        view.backgroundColor = .darkGray
         
+        radioBackgroundImage()
         configTableView()
-        setupView()
+        setupTopView()
+        setupBottomView()
         
     }
     
@@ -44,7 +45,7 @@ class MainViewController: UIViewController {
         view.addSubview(tableView)
         tableView.register(RadioCell.self, forCellReuseIdentifier: RadioCell.identifier)
         tableView.snp.makeConstraints { make in
-            make.top.equalTo(view.snp.top).offset(100)
+            make.top.equalTo(view.snp.top).offset(120)
             make.left.right.bottom.equalToSuperview()
         }
     }
@@ -54,7 +55,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return  1
+        return  10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -66,6 +67,9 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         cell.backgroundColor = .clear
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 }
 
 private extension MainViewController {
@@ -75,12 +79,12 @@ private extension MainViewController {
         static let normal: CGFloat = 48
     }
     
-    func setupView() {
+    func setupTopView() {
         navigationController?.navigationBar.isHidden = true
         let navigationBar = CustomNavigationBar(delegate: self)
         self.navigationBar = navigationBar
         navigationBar.translatesAutoresizingMaskIntoConstraints = false
-        navigationBar.backgroundColor = .red
+//        navigationBar.backgroundColor = .red
         view.addSubview(navigationBar)
         
         heightConstraint = navigationBar.heightAnchor.constraint(equalToConstant: 48)
@@ -108,6 +112,19 @@ private extension MainViewController {
         }
     }
     
+    func setupBottomView() {
+        let bottomBar = CustomBottomBar(delegate: self)
+        self.bottomBar = bottomBar
+        bottomBar.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(bottomBar)
+        
+        bottomBar.snp.makeConstraints { make in
+            make.left.right.equalToSuperview()
+            make.bottom.equalTo(view.snp.bottom).offset(-50)
+        }
+        
+    }
+    
 }
 
 extension MainViewController: UIScrollViewDelegate {
@@ -131,5 +148,10 @@ extension MainViewController: CustomNavigationBarDelegate {
     func menuButtonTapped() {
         print("menuButtonTapped")
     }
+}
+
+extension MainViewController: CustomBottomBarDelegate {
+    
+
 }
 

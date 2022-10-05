@@ -52,14 +52,15 @@ class RadioCell: UITableViewCell {
     private func configImageView() {
         contentView.addSubview(radioImageView)
         radioImageView.snp.makeConstraints { make in
-            make.left.bottom.top.equalToSuperview()
+            make.bottom.top.equalToSuperview()
+            make.left.equalToSuperview().inset(15)
         }
     }
     
     private func configСontainerView() {
         contentView.addSubview(containerView)
         containerView.snp.makeConstraints { make in
-            make.left.equalTo(radioImageView.snp.right).offset(5)
+            make.left.equalTo(radioImageView.snp.right).inset(5)
             make.right.equalTo(contentView.snp.right)
             make.top.equalTo(contentView.snp.top)
             make.bottom.equalTo(contentView.snp.bottom)
@@ -70,7 +71,7 @@ class RadioCell: UITableViewCell {
         containerView.addSubview(radioName)
         radioName.snp.makeConstraints { make in
             make.top.equalTo(containerView.snp.top)
-            make.left.equalTo(containerView.snp.left).offset(30)
+            make.left.equalTo(containerView.snp.left).inset(20)
         }
     }
     
@@ -78,7 +79,7 @@ class RadioCell: UITableViewCell {
         containerView.addSubview(discrName)
         discrName.snp.makeConstraints { make in
             make.top.equalTo(radioName.snp.bottom)
-            make.left.equalTo(containerView.snp.left).offset(30)
+            make.left.equalTo(containerView.snp.left).inset(20)
         }
     }
 }

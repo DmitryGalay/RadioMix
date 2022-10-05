@@ -17,9 +17,13 @@
 		3238704F28EDC85F00393A51 /* UILabel+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704828EDC85F00393A51 /* UILabel+threedeers.swift */; };
 		3238705028EDC85F00393A51 /* UITextField+threedeers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704928EDC85F00393A51 /* UITextField+threedeers.swift */; };
 		3238705128EDC85F00393A51 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238704A28EDC85F00393A51 /* Notification+Name.swift */; };
+		3238705528EDFDFD00393A51 /* wave(black).gif in Resources */ = {isa = PBXBuildFile; fileRef = 3238705328EDFDFD00393A51 /* wave(black).gif */; };
+		3238705628EDFDFD00393A51 /* wave(white).gif in Resources */ = {isa = PBXBuildFile; fileRef = 3238705428EDFDFD00393A51 /* wave(white).gif */; };
+		3238705A28EE056A00393A51 /* GifLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238705928EE056A00393A51 /* GifLogger.swift */; };
+		3238705E28EE063D00393A51 /* wave.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3238705D28EE063D00393A51 /* wave.gif */; };
 		32FA8DB428EB3CF0009D4E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */; };
 		32FA8DB628EB3CF0009D4E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */; };
-		32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB728EB3CF0009D4E3D /* ViewController.swift */; };
+		32FA8DB828EB3CF0009D4E3D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */; };
 		32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DB928EB3CF0009D4E3D /* Main.storyboard */; };
 		32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */; };
 		32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */; };
@@ -32,17 +36,21 @@
 		3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		3238703F28EDB42F00393A51 /* BurgerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerButton.swift; sourceTree = "<group>"; };
 		3238704128EDC2A600393A51 /* CustomBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomBar.swift; sourceTree = "<group>"; };
-		3238704428EDC85F00393A51 /* UIColor+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+threedeers.swift"; sourceTree = "<group>"; };
-		3238704528EDC85F00393A51 /* String+Ranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
-		3238704628EDC85F00393A51 /* UIView+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+threedeers.swift"; sourceTree = "<group>"; };
-		3238704728EDC85F00393A51 /* UIButton+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+threedeers.swift"; sourceTree = "<group>"; };
-		3238704828EDC85F00393A51 /* UILabel+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+threedeers.swift"; sourceTree = "<group>"; };
-		3238704928EDC85F00393A51 /* UITextField+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+threedeers.swift"; sourceTree = "<group>"; };
-		3238704A28EDC85F00393A51 /* Notification+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		3238704428EDC85F00393A51 /* UIColor+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+threedeers.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/UIColor+threedeers.swift"; sourceTree = "<group>"; };
+		3238704528EDC85F00393A51 /* String+Ranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Ranges.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/String+Ranges.swift"; sourceTree = "<group>"; };
+		3238704628EDC85F00393A51 /* UIView+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+threedeers.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/UIView+threedeers.swift"; sourceTree = "<group>"; };
+		3238704728EDC85F00393A51 /* UIButton+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+threedeers.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/UIButton+threedeers.swift"; sourceTree = "<group>"; };
+		3238704828EDC85F00393A51 /* UILabel+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+threedeers.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/UILabel+threedeers.swift"; sourceTree = "<group>"; };
+		3238704928EDC85F00393A51 /* UITextField+threedeers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+threedeers.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/UITextField+threedeers.swift"; sourceTree = "<group>"; };
+		3238704A28EDC85F00393A51 /* Notification+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notification+Name.swift"; path = "../../Documents/Work/GameInteractiveManager/GitHub/RadioMix/RadioMix/RadioMix/Extensions/Notification+Name.swift"; sourceTree = "<group>"; };
+		3238705328EDFDFD00393A51 /* wave(black).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave(black).gif"; path = "../../../../../../../../Downloads/wave(black).gif"; sourceTree = "<group>"; };
+		3238705428EDFDFD00393A51 /* wave(white).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave(white).gif"; path = "../../../../../../../../Downloads/wave(white).gif"; sourceTree = "<group>"; };
+		3238705928EE056A00393A51 /* GifLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogger.swift; sourceTree = "<group>"; };
+		3238705D28EE063D00393A51 /* wave.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wave.gif; sourceTree = "<group>"; };
 		32FA8DB028EB3CF0009D4E3D /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32FA8DB728EB3CF0009D4E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		32FA8DBA28EB3CF0009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32FA8DBF28EB3CF1009D4E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,9 +82,20 @@
 				3238704828EDC85F00393A51 /* UILabel+threedeers.swift */,
 				3238704928EDC85F00393A51 /* UITextField+threedeers.swift */,
 				3238704A28EDC85F00393A51 /* Notification+Name.swift */,
+				3238705928EE056A00393A51 /* GifLogger.swift */,
 			);
 			name = Extensions;
 			path = ../../../../../../../Downloads/Extensions;
+			sourceTree = "<group>";
+		};
+		3238705228EDFDA400393A51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3238705D28EE063D00393A51 /* wave.gif */,
+				3238705328EDFDFD00393A51 /* wave(black).gif */,
+				3238705428EDFDFD00393A51 /* wave(white).gif */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		32FA8DA728EB3CF0009D4E3D = {
@@ -103,7 +122,7 @@
 				3238704328EDC85F00393A51 /* Extensions */,
 				32FA8DB328EB3CF0009D4E3D /* AppDelegate.swift */,
 				32FA8DB528EB3CF0009D4E3D /* SceneDelegate.swift */,
-				32FA8DB728EB3CF0009D4E3D /* ViewController.swift */,
+				32FA8DB728EB3CF0009D4E3D /* MainViewController.swift */,
 				32FA8DC728EC2C98009D4E3D /* RadioCell.swift */,
 				3238703D28EDB2C100393A51 /* CustomNavigationBar.swift */,
 				3238704128EDC2A600393A51 /* CustomBottomBar.swift */,
@@ -112,6 +131,7 @@
 				32FA8DBC28EB3CF1009D4E3D /* Assets.xcassets */,
 				32FA8DBE28EB3CF1009D4E3D /* LaunchScreen.storyboard */,
 				32FA8DC128EB3CF1009D4E3D /* Info.plist */,
+				3238705228EDFDA400393A51 /* Resources */,
 			);
 			path = RadioMix;
 			sourceTree = "<group>";
@@ -193,6 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3238705528EDFDFD00393A51 /* wave(black).gif in Resources */,
+				3238705E28EE063D00393A51 /* wave.gif in Resources */,
+				3238705628EDFDFD00393A51 /* wave(white).gif in Resources */,
 				32FA8DC028EB3CF1009D4E3D /* LaunchScreen.storyboard in Resources */,
 				32FA8DBD28EB3CF1009D4E3D /* Assets.xcassets in Resources */,
 				32FA8DBB28EB3CF0009D4E3D /* Main.storyboard in Resources */,
@@ -248,7 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FA8DB828EB3CF0009D4E3D /* ViewController.swift in Sources */,
+				3238705A28EE056A00393A51 /* GifLogger.swift in Sources */,
+				32FA8DB828EB3CF0009D4E3D /* MainViewController.swift in Sources */,
 				3238704228EDC2A600393A51 /* CustomBottomBar.swift in Sources */,
 				3238705028EDC85F00393A51 /* UITextField+threedeers.swift in Sources */,
 				32FA8DC828EC2C99009D4E3D /* RadioCell.swift in Sources */,
