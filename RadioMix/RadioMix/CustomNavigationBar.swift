@@ -19,7 +19,6 @@ final class CustomNavigationBar: UIView {
     
     private var heightConstraint: NSLayoutConstraint?
     weak var delegate: CustomNavigationBarDelegate?
-    public var  hamburgerButton = UIButton()
     
     init(delegate: CustomNavigationBarDelegate) {
         super.init(frame: .zero)
@@ -66,29 +65,26 @@ final class CustomNavigationBar: UIView {
 //        let profileButton = button(named: "coin")
 //        profileButton.addTarget(self, action: #selector(onAccountButtonTapped), for: .touchUpInside)
 //        stackButtons.addArrangedSubview(profileButton)
-//
-        hamburgerButton = FKBurgerButton(isChecked: false)
-        hamburgerButton.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
-        hamburgerButton.addTarget(self, action: #selector(onMenuButtonTapped), for: .touchUpInside)
         
-        addSubview(hamburgerButton)
-        hamburgerButton.snp.makeConstraints { make in
+        let logoButton = button(named: "wave")
+        
+        logoButton.addTarget(self, action: #selector(onMenuButtonTapped), for: .touchUpInside)
+        logoButton.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+        addSubview(logoButton)
+        logoButton.snp.makeConstraints { make in
             make.top.bottom.equalToSuperview()
             make.right.equalToSuperview().inset(50)
         }
-//        stackButtons.addArrangedSubview(hamburgerButton)
     }
     
-//    private func button(named: String, collapsed: Bool = false) -> UIButton {
-//        let button = UIButton()
-//        button.setImage(UIImage(named: named)?.withRenderingMode(.alwaysTemplate), for: .normal)
-//        button.imageView?.contentMode = .scaleAspectFit
-//        if collapsed {
-//            button.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
-//        }
-//        return button
-//    }
+     private func button(named: String, collapsed: Bool = false) -> UIButton {
     
+    let button = UIButton()
+    button.setImage(UIImage(named: named)?.withRenderingMode(.alwaysTemplate), for: .normal)
+    button.imageView?.contentMode = .scaleAspectFit
+    button.tintColor = .lightGray
+    return button
+}
 //    @objc func onAccountButtonTapped() {
 //        delegate?.accountButtonTapped()
 //    }

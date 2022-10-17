@@ -12,7 +12,7 @@ class FKBurgerButton: UIButton {
     
     var isChecked: Bool = false {
         didSet {
-            let image = isChecked ? UIImage(named: "wave")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "wave")?.withRenderingMode(.alwaysTemplate)
+            let image = isChecked ? UIImage(named: "play")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "pause")?.withRenderingMode(.alwaysTemplate)
             setImage(image, for: .normal)
         }
     }
@@ -25,7 +25,7 @@ class FKBurgerButton: UIButton {
         self.isChecked = isChecked
         super.init(frame: .zero)
         tintColor = .lightGray
-        let image = isChecked ? UIImage(named: "wave")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "wave")?.withRenderingMode(.alwaysTemplate)
+        let image = isChecked ? UIImage(named: "play")?.withRenderingMode(.alwaysTemplate) : UIImage(named: "pause")?.withRenderingMode(.alwaysTemplate)
         setImage(image, for: .normal)
         imageView?.contentMode = .scaleAspectFit
         self.addTarget(self, action: #selector(burgerPressed), for: .touchUpInside)

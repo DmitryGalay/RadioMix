@@ -15,7 +15,6 @@ protocol CustomBottomBarDelegate: AnyObject {
 
 final class CustomBottomBar: UIView {
     
-    public var  hamburgerButton = UIButton()
     weak var delegate: CustomBottomBarDelegate?
     
     init(delegate: CustomBottomBarDelegate) {
@@ -47,11 +46,14 @@ final class CustomBottomBar: UIView {
 //        bottomImage.tintColor = .lightGray
 //        bottomImage.contentMode = .scaleAspectFit
         
-        hamburgerButton = FKBurgerButton(isChecked: false)
-        hamburgerButton.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
-        addSubview(hamburgerButton)
+        let logoButton = button(named: "wave")
         
-        hamburgerButton.snp.makeConstraints { make in
+//        logoButton.addTarget(self, action: #selector(onMenuButtonTapped), for: .touchUpInside)
+        logoButton.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+        addSubview(logoButton)
+       
+        
+        logoButton.snp.makeConstraints { make in
             make.top.bottom.equalToSuperview()
             make.left.equalToSuperview().inset(10)
         }
@@ -61,9 +63,17 @@ final class CustomBottomBar: UIView {
         bottomLabel.textColor = .lightGray
         addSubview(bottomLabel)
         bottomLabel.snp.makeConstraints { make in
-            make.left.equalTo(hamburgerButton.snp.right).offset(20)
+            make.left.equalTo(logoButton.snp.right).offset(20)
             make.top.bottom.equalToSuperview()
         }
-        
     }
+        private func button(named: String, collapsed: Bool = false) -> UIButton {
+       
+       let button = UIButton()
+       button.setImage(UIImage(named: named)?.withRenderingMode(.alwaysTemplate), for: .normal)
+       button.imageView?.contentMode = .scaleAspectFit
+       button.tintColor = .lightGray
+       return button
+   }
+    
 }

@@ -23,14 +23,6 @@ class MainViewController: UIViewController {
         configTableView()
         setupTopView()
         setupBottomView()
-        
-    }
-    
-    private func radioBackgroundImage() {
-        let backgroundImage = UIImageView()
-        backgroundImage.frame = view.bounds
-        backgroundImage.image = UIImage(named: "background")
-        view.addSubview(backgroundImage)
     }
     
     private func configTableView() {
@@ -39,9 +31,11 @@ class MainViewController: UIViewController {
         tableView.separatorStyle = .none
         tableView.showsVerticalScrollIndicator = false
         tableView.showsHorizontalScrollIndicator = false
-        tableView.allowsSelection = false
+        tableView.allowsSelection = true
         tableView.dataSource = self
         tableView.delegate = self
+//        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = UITableView.automaticDimension
         view.addSubview(tableView)
         tableView.register(RadioCell.self, forCellReuseIdentifier: RadioCell.identifier)
         tableView.snp.makeConstraints { make in
@@ -49,13 +43,20 @@ class MainViewController: UIViewController {
             make.left.right.bottom.equalToSuperview()
         }
     }
+    
+    private func radioBackgroundImage() {
+         let backgroundImage = UIImageView()
+         backgroundImage.frame = view.bounds
+         backgroundImage.image = UIImage(named: "background")
+         view.addSubview(backgroundImage)
+     }
 }
 
 extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return  10
+        return  1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -67,8 +68,13 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         cell.backgroundColor = .clear
         return cell
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "PlayViewController") as! PlayViewController
+       radioBackgroundImage()
+           navigationController?.pushViewController(newViewController, animated: false)
     }
 }
 
@@ -84,7 +90,6 @@ private extension MainViewController {
         let navigationBar = CustomNavigationBar(delegate: self)
         self.navigationBar = navigationBar
         navigationBar.translatesAutoresizingMaskIntoConstraints = false
-//        navigationBar.backgroundColor = .red
         view.addSubview(navigationBar)
         
         heightConstraint = navigationBar.heightAnchor.constraint(equalToConstant: 48)
@@ -152,6 +157,6 @@ extension MainViewController: CustomNavigationBarDelegate {
 
 extension MainViewController: CustomBottomBarDelegate {
     
-
+    
 }
 
